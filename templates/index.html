@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Easy Loan</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body class="clr1">
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#"><i class="bi bi-bank2"></i> Easy Loan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-success text-white" type="submit">APPLY NOW</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Home Section -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <h1 class="text-white">The Simple Online <br> Home Loan</h1>
+            <h2 class="text-white">_____________</h2>
+            <h4 class="text-white">Financial uncertainty is hard on employees and causes stress.</h4>
+            <div class="pt-3">
+              <button class="btn btn-outline-light" type="submit">Our Services</button>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <form>
+              <div class="card ms-auto rounded-0" style="height: 34rem; width: 25rem;">
+                <h3 class="text-center pt-4">How much do you want?</h3>
+                <h6 class="text-center">We provide online instant cash loans.</h6>
+                
+                <div class="container pt-5">
+                  <h6>Amount you want?</h6>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Select Category">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"></button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1000$</a></li>
+                      <li><a class="dropdown-item" href="#">1500$</a></li>
+                      <li><a class="dropdown-item" href="#">2000$</a></li>
+                    </ul>
+                  </div>
+
+                  <h6>Month:</h6>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Select Month">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"></button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Jan-April</a></li>
+                      <li><a class="dropdown-item" href="#">May-August</a></li>
+                      <li><a class="dropdown-item" href="#">Sept-Dec</a></li>
+                    </ul>
+                  </div>
+
+                  <h6>You Have To Pay: $</h6>
+
+                  <div class="form-group text-center pt-5">
+                    <button class="btn btn-success col-10 rounded-0" type="submit">APPLY NOW</button>
+                  </div>
+
+                  <div class="pt-4 text-center">
+                    <h6>We provide online instant cash loans</h6>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

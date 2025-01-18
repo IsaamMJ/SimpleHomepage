@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500&family=Poppins:wght@300&display=swap');
+
+body {
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.clr1 {
+    background-color: rgb(124, 199, 124);
+}
+
+.nav-item {
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid rgb(0, 93, 0);
+    transition: .1s;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-success {
+    background-color: rgb(23, 179, 23);
+}
+
+.btn-outline-light {
+    color: white;
+    border-color: white;
+}
+
+input[type="text"] {
+    font-size: 14px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 14px;
+    color: #fff;
+}
