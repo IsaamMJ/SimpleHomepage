@@ -6,4 +6,4 @@ While the files may seem complicated due to the initialization of Docker and int
 
 
 **Visit this link to have a look on the design**
-gcr.io/githubprof/easyloan01@sha256:512dc89bf95cfabf1057a92c2ceba8c7b8a3d6a2de13dbf3fb7dbd6a69598ac6
+https://easyloan01-390653045137.us-central1.run.app/
